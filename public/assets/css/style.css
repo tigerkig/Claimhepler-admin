@@ -1,0 +1,63 @@
+@media (min-width: 992px)
+{
+  .modal-lg {
+    width: 1200px !important;
+  }
+}
+.box {
+
+}
+.modal-header-style {
+  display:flex; 
+  justify-content: space-between; 
+  padding: 7px 10px 0px 10px;
+}
+
+@media (max-width: 510px) {
+   .subject{
+     width:100% !important;
+   }
+   .upload_layout{
+     display:block !important;
+   }
+   .title {
+     font-size: 18px !important;
+   }
+   .child {
+     width: 100% !important;
+   }
+   .child_1 {
+     width: 100% !important;
+   }
+   .email_style h2{
+     font-size: 1.4rem;
+   }
+ }
+
+ @media (max-width: 360px){
+   .title{
+     display: inline-block;
+     width: 258px;
+     white-space: nowrap;
+     overflow: hidden !important;
+     text-overflow: ellipsis;
+   }
+ }
+
+ .title{
+   font-size: 20px;
+   color: #0e70d7;
+   border-bottom: 1px solid #6399d3;
+ }
+ .preview{
+   padding:20px;
+ }
+ 
+ .subject{
+   width:40%;
+   color: #0e70d7;
+ }
+
+ label {
+    font-weight: 100 !important;
+ }
